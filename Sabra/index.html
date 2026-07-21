@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABRA | Bouw en Renovatie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--  navbar -->
+    <nav class="navbar">
+        <div class="logo"> <img src="media/logoSabra.png" alt="Sabra" width="90px" height="60px"> </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#diensten">Diensten</a></li>
+            <li><a href="#projecten">Projecten</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn-main"><a href ="#contact">Offerte Aanvragen</a></button>
+        <!-- <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button> -->
+    </nav>
+    <!-- hero-text -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                Uw Betrouwbare Partner voor <span>Bouw en Renovatie</span> in Nederland.
+            </h1>
+            <p>Vakmanschap • Kwaliteit • Betrouwbaarheid</p>
+            <div class="hero-buttons">
+                <!-- <button class="btn-fill">Vraag Offerte Aan →</button> -->
+                <button class="btn-outline"><a href ="#projecten"> Bekijk Projecten →</a></button>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="overons" class="overons">
+
+        <div class="over-container">
+
+            <div class="over-image">
+                <img src="media/employee.jpg" alt="Ons team">
+            </div>
+
+            <div class="over-content">
+
+                <span>OVER ONS</span>
+
+                <h2>Wij staan voor kwaliteit en vakmanschap</h2>
+
+                <p>
+                    Wij zijn een professioneel team dat zich richt op hoogwaardige
+                    werkzaamheden voor woningen en bedrijfspanden.
+                    Met aandacht voor detail, duidelijke afspraken en een nette
+                    afwerking zorgen wij voor een resultaat waar u trots op bent.
+                </p>
+
+                <div class="over-info">
+
+                    <div>
+                        <strong>10+</strong>
+                        <p>Jaar ervaring</p>
+                    </div>
+
+                    <div>
+                        <strong>100%</strong>
+                        <p>Betrouwbare service</p>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <p>Persoonlijk contact</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="diensten" class="services">
+
+        <div class="services-header">
+            <span>WAT WIJ DOEN</span>
+            <h2>Onze diensten</h2>
+            <p>
+                Van renovatie tot afwerking: wij leveren professioneel vakwerk
+                met oog voor detail en kwaliteit.
+            </p>
+        </div>
+
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="service-icon">🛠</div>
+                <h3>Stukadoorswerk</h3>
+                <p>
+                    Strakke wanden en plafonds met een perfecte afwerking.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="service-icon">🎨</div>
+                <h3>Schilderwerk</h3>
+                <p>
+                    Professioneel schilderwerk voor binnen en buiten.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="service-icon">🏗</div>
+                <h3>Renovatie</h3>
+                <p>
+                    Complete renovaties met aandacht voor ieder detail.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="service-icon">🔨</div>
+                <h3>Klussenwerk</h3>
+                <p>
+                    Voor kleine en grote werkzaamheden in uw woning.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- wHY Sabra -->
+    <section id="waarom" class="waarom">
+
+        <div class="waarom-header">
+            <span>ONZE KRACHT</span>
+            <h2>Waarom kiezen voor Sabra?</h2>
+            <p>
+                Wij combineren vakkennis, betrouwbaarheid en persoonlijke service
+                om ieder project tot een succes te maken.
+            </p>
+        </div>
+
+
+        <div class="waarom-grid">
+
+            <div class="waarom-card">
+                <div class="waarom-number">01</div>
+                <h3>Vakmanschap</h3>
+                <p>
+                    Ervaren specialisten die werken met oog voor detail,
+                    kwaliteit en een perfect eindresultaat.
+                </p>
+            </div>
+
+
+            <div class="waarom-card">
+                <div class="waarom-number">02</div>
+                <h3>Duidelijke communicatie</h3>
+                <p>
+                    Van het eerste contact tot de oplevering houden wij
+                    afspraken helder en overzichtelijk.
+                </p>
+            </div>
+
+
+            <div class="waarom-card">
+                <div class="waarom-number">03</div>
+                <h3>Betrouwbaar resultaat</h3>
+                <p>
+                    Wij leveren netjes, duurzaam en volgens afspraak,
+                    zodat u jarenlang tevreden blijft.
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Project -->
+    <section id="projecten" class="services">
+        <h2>ONZE Projecten</h2>
+
+
+
+        <div class="gallery" id="gallery">
+        </div>
+
+        <div class="gallery-actions">
+            <button id="showMoreBtn" class="btn-show-more" type="button">Show more</button>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews">
+
+        <div class="reviews-header">
+            <span>KLANTEN AAN HET WOORD</span>
+            <h2>Wat onze klanten zeggen</h2>
+            <p>
+                Tevreden klanten zijn onze beste reclame. Lees wat zij vinden
+                van onze service en kwaliteit.
+            </p>
+        </div>
+
+
+        <div class="reviews-grid">
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Sabra heeft ons huis prachtig gerenoveerd.
+                    Alles werd netjes uitgevoerd en de afspraken werden perfect nagekomen."
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">A</div>
+                    <div>
+                        <h3>Ahmed B.</h3>
+                        <span>Renovatie klant</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Zeer professioneel team. Het schilderwerk is strak gedaan
+                    en de communicatie was duidelijk vanaf het begin."
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">M</div>
+                    <div>
+                        <h3>Mohamed K.</h3>
+                        <span>Schilderwerk klant</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Betrouwbare vakmensen die netjes werken.
+                    Wij zijn erg tevreden met het eindresultaat."
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">S</div>
+                    <div>
+                        <h3>Sophie R.</h3>
+                        <span>Stukadoorswerk klant</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="review-button">
+                <p>Tevreden over ons werk?</p>
+
+                <a href="https://www.google.com/search?sca_esv=5171afe6e00816b8&rlz=1C1HKFL_nlNL1199NL1200&hl=nl-NL&sxsrf=APpeQntoMBYK1wIv2j_bNMOsNCnjaxLy4g:1784479257596&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_wj98pzjTRHRmaYd_mSb3nWojJZDHp2sBodUD1Yf2_qecn1DckBgJWHtpdjNLMGZZyEllOfOukR06NehRIceThPjhHmt7NQI_Qx3m6LVrSWyJdH5ug%3D%3D&q=Sabra+stukadoorsbedrijf+Reviews&sa=X&ved=2ahUKEwi18Yeil9-VAxU4ywIHHcFiBXAQ0bkNegQIIhAF&biw=1920&bih=912&dpr=1"
+                    target="_blank" class="google-review-btn">
+
+                    ⭐ Schrijf een review
+
+                </a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Contact form -->
+<section id="contact" class="contact">
+
+    <div class="contact-header">
+
+        <span>NEEM CONTACT OP</span>
+
+        <h2>Vraag vrijblijvend een offerte aan</h2>
+
+        <p>
+            Heeft u een project of wilt u meer informatie?
+            Neem contact met ons op en wij helpen u graag verder.
+        </p>
+
+    </div>
+
+
+    <form id="contactForm" class="contact-form">
+
+        <input 
+        type="text" 
+        id="naam"
+        maxlength="50"
+        required
+        placeholder="Uw naam">
+
+
+        <input 
+        type="email"
+        id="email"
+        maxlength="100"
+        required
+        placeholder="Uw email">
+
+
+        <input 
+        type="tel"
+        id="telefoon"
+        maxlength="20"
+        placeholder="Uw telefoonnummer">
+
+
+        <textarea 
+        id="bericht"
+        maxlength="1000"
+        required
+        placeholder="Uw bericht"></textarea>
+
+
+        <input 
+        type="text"
+        id="website"
+        style="display:none">
+
+
+        <button type="submit">
+            Verstuur aanvraag →
+        </button>
+
+    </form>
+
+
+    <!-- footer -->
+     <footer class="footer">
+
+    <div class="footer-container">
+        <div class="footer-logo">
+
+            <h2>Sabra</h2>
+
+            <p>
+                Specialist in stukadoorswerk, schilderwerk, renovatie en
+                klussenwerk. Wij leveren vakmanschap, kwaliteit en een
+                betrouwbare service voor iedere klant.
+            </p>
+
+        </div>
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>
+                📍 Pampusstraat 73<br>
+                1443 WD Purmerend
+            </p>
+
+            <p>
+                📞 <a href="tel:+31687642709">06 87642709</a>
+            </p>
+
+            <p>
+                ✉️ <a href="mailto:sabraalibrahim@gmail.com">
+                    sabraalibrahim@gmail.com
+                </a>
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Openingstijden</h3>
+
+            <ul>
+
+                <li>Maandag <span>08:00 – 18:00</span></li>
+                <li>Dinsdag <span>08:00 – 18:00</span></li>
+                <li>Woensdag <span>08:00 – 18:00</span></li>
+                <li>Donderdag <span>08:00 – 18:00</span></li>
+                <li>Vrijdag <span>08:00 – 20:00</span></li>
+                <li>Zaterdag <span>Gesloten</span></li>
+                <li>Zondag <span>Gesloten</span></li>
+
+            </ul>
+
+        </div>
+        <div class="footer-column">
+
+            <h3>Snelle links</h3>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#diensten">Diensten</a></li>
+                <li><a href="#projecten">Projecten</a></li>
+                <li><a href="#overons">Over ons</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © 2026 Sabra Stukadoorsbedrijf. Alle rechten voorbehouden.
+
+    </div>
+
+</footer>
+
+</section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
