@@ -179,3 +179,37 @@ ${veilig(bericht)}`;
   window.location.href = mail;
 
 });
+
+
+const themeToggle = document.getElementById("themeToggle");
+
+if (themeToggle) {
+
+    // Bewaar keuze van gebruiker
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "white") {
+        document.body.classList.add("white-mode");
+        themeToggle.textContent = "🌙";
+    }
+
+    themeToggle.addEventListener("click", () => {
+
+        document.body.classList.toggle("white-mode");
+
+        if (document.body.classList.contains("white-mode")) {
+
+            localStorage.setItem("theme", "white");
+            themeToggle.textContent = "🌙";
+            themeToggle.setAttribute("aria-label", "Donkere modus");
+
+        } else {
+
+            localStorage.setItem("theme", "dark");
+            themeToggle.textContent = "☀️";
+            themeToggle.setAttribute("aria-label", "Witte modus");
+
+        }
+
+    });
+}
